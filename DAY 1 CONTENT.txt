@@ -1,0 +1,26 @@
+python is famous in the market and it is called as language of future.It supports current Technologies and upcoming Technologies.
+Mediums:
+IDLE,JupyterNotebook,Anaconda,thony etc....
+
+DATATYPES:
+1)Numerical
+ -integer
+ -float
+2)Boolean
+  -True
+  -False
+3)Complex
+
+sequence datatypes:
+string,list,tuple,dictionary
+
+set
+
+OPERATOR PRECENDENCE AND ASSOCIATIVITY LAW:
+Every operator has its own priority.we can use Bodmas rule.
+If there is same priority operators present in the expression evaluation happens left to right except one operator i.e,Assignment operator which evaluates right to left.
+
+OPERATORS:
+Arthimetic operators
+relational or comparison
+logical 
