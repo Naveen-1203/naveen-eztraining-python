@@ -1,0 +1,20 @@
+BITWISE OPERATORS:
+0'S AND 1'S
+some operation if you do like this it will be faster
+like-compressing data
+sending data in network to network 0-1 or ON OFF or true false
+
+1)BITWISE AND
+2)BITWISE OR
+3)BITWISE NOT
+4)BITWISE XOR
+5)left shift
+6)right shift
+
+
+CONDITIONAL STATEMENTS:
+1)simple if
+2)if else
+3)else if
+4)elseif ladder
+5)nestedif
