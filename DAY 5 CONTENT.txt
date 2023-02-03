@@ -1,0 +1,13 @@
+functions
+.classifications
+.predefined 
+.user defined 
+-for code reusability we use functiins we want to use a particular in a multiple times in prgrm instead of wrinting the same code many times we can writed it ones include hat inside  a function and can call the function where ever we needed
+types
+1)functions without argument without return value
+2)functions without argument with return value
+3)functions with arguement with return value 
+4)functions with arguement without return value
+  
+ . RECURSIVE FUNCTION 
+ A function which calls itself is called recursive function 
