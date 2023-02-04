@@ -1,0 +1,125 @@
+EXCEPTION:
+when there is exception the developer doesnot want interuption or 
+disturbance in the flow, to achieve this we use exception,
+
+
+a=100
+b=0
+try:#u r telling this may have error, u try
+    print(a/b)
+    
+#except Exception: #u saying if eror there i handle
+#print("Cant divide any number by zero")
+
+except Exception as e:
+    print("Please note, number cant be divided by zero", e)
+
+#to check your prg execution goes till end or get
+print("Bye")
+
+---------------------------------------------------------------
+
+#whenever u open a file make sure u close it
+#file may be anything - prg, database... gives clas
+a=10
+b=0
+try:
+    print("resoure open")
+    print(a/b)
+
+except Exception as e:
+    print("Dont give second no as zero",e)
+
+finally:
+    print("Resource closed")
+
+--------------------------------------------------------------
+
+#like specialised doctors
+#for those specific error only those exception
+#blocks will get executed
+
+a=10
+try:
+    b=int(input("Enter the number: "))
+    print("resource open")
+    print(a/b)
+except ZeroDivisionError as e:
+    print("please note, number cant be divided by zero",e)
+
+except ValueError as e:
+    print("Invalid input",e)
+except Exception as e: #if not any above errors
+    print("other error",e)
+finally:
+    print("Resource closed")
+--------------------------------------------------------------
+
+OOPS: Ob
+
+its an efficient concept, used in all obect oriented languages like 
+java and python, for multiple reasons we use oops concepts 
+for example : code reusability, data security, hiding data
+
+Class:
+Its a blueprint ex: birds, laptops
+
+Object:
+Its a thing created based on class. 
+NOTE: one class can have multiple objects
+
+
+class:birds
+object:parrot,pegion,sparrow
+
+class:laptop
+object:HP,DELL,LENOVO,APPLE
+
+EX:
+
+class computer:             #class definition
+    def config(self):       #config is a function
+        print("Yes")
+
+lenova=computer()           #object 1
+lenova.config()
+
+dell=computer()             #object 2
+dell.config()
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+class Employee:
+    def __init__(self,name, id):
+        self.id=id
+        self.name = name
+    def display(self):
+        print("ID: %d \nName: %s" % (self.id,self.name))
+
+emp1=Employee("Naajir", 101)
+emp2=Employee("Poornima", 102)
+
+emp1.display()
+emp2.display()
+
+--------------------------------------------------------------
+#variables and var.access in class and method
+class computer():
+    a=10
+    b=20
+    print("class variable inside class",a)
+
+    def config(self): #config is a fuction
+        c=100
+        print("Yes")
+        print("Instance access",self.b)
+
+lenova=computer() #obect 1
+print(lenova.a)
+print(lenova.a+lenova.b)
+dell=computer()
+print("dell",dell.a)
+lenova.config()
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+
