@@ -1,0 +1,21 @@
+lambda function-it is called anonymous function.when we want use function concept alone without using function name.There we apply of lambda function.
+
+
+#FOUR PILLARS OF OOPS
+
+Abstarction-hiding the implementation part showing what is required for d  users ex:exe file
+we can make class or methoad as abstract ,opposite to abstract is concrete 
+encapsulation-Binding data and function into a single entity
+public-one class info can be accessed  by any other class
+private-can used where it is declared /no in inheritected class
+protected-can be accessed only where it got declared whichever class inherited from this class there also we can use 
+Inheritance-Base class and derived class
+     Derived class will inherit properties of base class
+Base class:parent class
+Derived class- child class
+single inheritance 
+multiple
+multlevel
+hirearchial 
+hybrid
+polymorphism-
