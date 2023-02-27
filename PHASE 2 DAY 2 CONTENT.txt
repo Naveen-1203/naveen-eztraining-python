@@ -1,0 +1,33 @@
+
+one item or sameitem used for different purpose
+TYPES
+1.overloading
+*operator overloading
+*method overloading
+2.overRiding
+if the method is defective or cant be used inside  derived class it will take from base class or paren  t class.
+
+DATA STRUCTURES
+LINEAR-array/linked list/stack/queue/matrix
+NON LINEAR-BINARY TREE/HEAP/HASH TABLE/GRAPH
+
+static-ex:Array
+Dynamic-ex:list,stack,queue
+
+LINKED LIST
+ex-train 
+ As   the name says list of items linked with one another is called as linked list
+TYPES:
+single or singly
+Double or Doubly
+circular
+
+creating linked lists
+1.create the node
+2.partion the node with two segments  data and none
+3.add value into the blank node 
+4.Mark the node as head
+5.create the next node by following the above steps 
+6. establish link between first node and second node
+DISPLAY THE LINKED LISTS
+Traersal is required from tail node in order to display existing linked list
